@@ -1,0 +1,107 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void PanelToggler_Start_mC9991CB9E7214807A31D7F48A5E06E56D7735DDE (void);
+extern void PanelToggler_Update_mA939F1112C7590D33BF3B9E7BE23660F453F8D2F (void);
+extern void PanelToggler_OnToggle_m36B371787845D019B0B1BEFF93D8569BA3F36132 (void);
+extern void PanelToggler__ctor_m84CC6A52D08159816F6A30BF08C364FBFA5A0D92 (void);
+extern void SceneController_Start_mE331697A1235EC3AAF23970DEA2A9F40BC4CA2E2 (void);
+extern void SceneController_Update_mA689EB8BDB101DF66742F635D44DCAA482A5948E (void);
+extern void SceneController_MainMenu_m33A4AD2A9F4E250B31A53DE241BDB26AADCB3CC6 (void);
+extern void SceneController_ARScene_mA8BA0FC0E243C7326BC24CAE3B04DB327D1DBDEC (void);
+extern void SceneController_QuitApp_mD86F9947D395C17B301AA382EC3F5E01DFE73146 (void);
+extern void SceneController__ctor_m9716569B18874456A7670484C5001303A31B8907 (void);
+extern void TextureScale_Point_m2AE3872E9E41EDA1C80F3621DB02CDDDC37A16E9 (void);
+extern void TextureScale_Bilinear_m46D3FAF17B036C221322852995D13D65B93AD9A7 (void);
+extern void TextureScale_ThreadedScale_mCAFF7C32104EB62501C535FC53DAE5C9C3A11BB1 (void);
+extern void TextureScale_BilinearScale_m22923828DE2338530B8F46A6364FAA89BAB2C92F (void);
+extern void TextureScale_PointScale_mFFA5765213B531DA43626AC5822CA48F72EC07D1 (void);
+extern void TextureScale_ColorLerpUnclamped_m1E513C5098D6689AC1C66818609B160416F01512 (void);
+extern void TextureScale__ctor_m58F73B7E18FAEC7656C4EFBBCEFA2D5E06297906 (void);
+extern void ThreadData__ctor_m871190A9851FF9A4E07BBBAD8F2F6CB87CD185B2 (void);
+extern void VuforiaLicense_GetLicenseKey_m796D51E5EF1C53F3D62BA4EA8806AC1FB1A5E3C4 (void);
+extern void VuforiaLicense__ctor_m094B92B3323DFFD79ADB696474D5D158C95E291B (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
+static Il2CppMethodPointer s_methodPointers[22] = 
+{
+	PanelToggler_Start_mC9991CB9E7214807A31D7F48A5E06E56D7735DDE,
+	PanelToggler_Update_mA939F1112C7590D33BF3B9E7BE23660F453F8D2F,
+	PanelToggler_OnToggle_m36B371787845D019B0B1BEFF93D8569BA3F36132,
+	PanelToggler__ctor_m84CC6A52D08159816F6A30BF08C364FBFA5A0D92,
+	SceneController_Start_mE331697A1235EC3AAF23970DEA2A9F40BC4CA2E2,
+	SceneController_Update_mA689EB8BDB101DF66742F635D44DCAA482A5948E,
+	SceneController_MainMenu_m33A4AD2A9F4E250B31A53DE241BDB26AADCB3CC6,
+	SceneController_ARScene_mA8BA0FC0E243C7326BC24CAE3B04DB327D1DBDEC,
+	SceneController_QuitApp_mD86F9947D395C17B301AA382EC3F5E01DFE73146,
+	SceneController__ctor_m9716569B18874456A7670484C5001303A31B8907,
+	TextureScale_Point_m2AE3872E9E41EDA1C80F3621DB02CDDDC37A16E9,
+	TextureScale_Bilinear_m46D3FAF17B036C221322852995D13D65B93AD9A7,
+	TextureScale_ThreadedScale_mCAFF7C32104EB62501C535FC53DAE5C9C3A11BB1,
+	TextureScale_BilinearScale_m22923828DE2338530B8F46A6364FAA89BAB2C92F,
+	TextureScale_PointScale_mFFA5765213B531DA43626AC5822CA48F72EC07D1,
+	TextureScale_ColorLerpUnclamped_m1E513C5098D6689AC1C66818609B160416F01512,
+	TextureScale__ctor_m58F73B7E18FAEC7656C4EFBBCEFA2D5E06297906,
+	ThreadData__ctor_m871190A9851FF9A4E07BBBAD8F2F6CB87CD185B2,
+	VuforiaLicense_GetLicenseKey_m796D51E5EF1C53F3D62BA4EA8806AC1FB1A5E3C4,
+	VuforiaLicense__ctor_m094B92B3323DFFD79ADB696474D5D158C95E291B,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
+};
+static const int32_t s_InvokerIndices[22] = 
+{
+	6109,
+	6109,
+	6109,
+	6109,
+	6109,
+	6109,
+	6109,
+	6109,
+	6109,
+	6109,
+	7535,
+	7535,
+	7041,
+	8697,
+	8697,
+	7185,
+	6109,
+	2432,
+	8852,
+	6109,
+	8900,
+	6109,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	22,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
